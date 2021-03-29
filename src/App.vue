@@ -1,15 +1,14 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <JumpBox/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import JumpBox from './components/JumpBox'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    JumpBox
   }
 }
 </script>
